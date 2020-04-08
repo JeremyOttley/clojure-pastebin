@@ -1,7 +1,7 @@
 (defproject pastebin "0.1.0-SNAPSHOT"
   :description "A pastebin clone storing data in-memory"
-  :url "https://github.com/exoscale/pastebin"
-  :license {:name "Eclipse Public License"
+  :url "https://github.com/JeremyOttley/clojure-pastebin/"
+  :license {:name "M.I.T."
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :main pastebin.main
   :dependencies [[org.clojure/clojure "1.9.0"]
