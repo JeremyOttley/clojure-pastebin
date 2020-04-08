@@ -1,4 +1,4 @@
-(ns exopaste.view
+(ns pastebin.view
   (:require [hiccup.page :refer [html5 include-js include-css]]
             [hiccup.form :refer [form-to text-area submit-button]]))
 

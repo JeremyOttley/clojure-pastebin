@@ -1,8 +1,8 @@
-# exopaste
+# pastebin
 
-*Exopaste* is a simple pastebin-like service written in the [Clojure programming language](https://clojure.org/), and whose purpose is mainly to demonstrate how [Exoscale](https://www.exoscale.com) writes high performance Clojure applications.
+*Pastebin* is a simple pastebin-like service written in the [Clojure programming language](https://clojure.org/), and whose purpose is mainly to demonstrate how [Exoscale](https://www.exoscale.com) writes high performance Clojure applications.
 
-This project is the companion project for the series of *exopaste* articles published on our [Syslog blog](https://www.exoscale.com/syslog/).
+This project is the companion project for the series of *pastebin* articles published on our [Syslog blog](https://www.exoscale.com/syslog/).
 
 ## Running this project
 

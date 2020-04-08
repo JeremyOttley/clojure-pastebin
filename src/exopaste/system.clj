@@ -1,7 +1,7 @@
-(ns exopaste.system
+(ns pastebin.system
   (:require [com.stuartsierra.component :as component]
-            [exopaste.server :as server]
-            [exopaste.store :as store]
+            [pastebin.server :as server]
+            [pastebin.store :as store]
             [clojure.tools.logging :refer [error]]))
 
 (def ^:redef system

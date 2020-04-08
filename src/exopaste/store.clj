@@ -1,4 +1,4 @@
-(ns exopaste.store
+(ns pastebin.store
   (:require [com.stuartsierra.component :as component]))
 
 (defn add-new-paste

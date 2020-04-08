@@ -1,5 +1,5 @@
-(ns exopaste.main
-  (:require [exopaste.system :refer [init-system start!]]))
+(ns pastebin.main
+  (:require [pastebin.system :refer [init-system start!]]))
 
 (defn -main [& args]
   (init-system)

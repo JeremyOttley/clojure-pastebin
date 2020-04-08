@@ -1,12 +1,12 @@
-(ns exopaste.server
+(ns pastebin.server
   (:require [com.stuartsierra.component :as component]
             [bidi.ring :refer [make-handler]]
             [aleph.http :as http]
             [ring.util.response :as res]
             [ring.util.request :as req]
             [ring.middleware.params :refer [wrap-params]]
-            [exopaste.view :as view]
-            [exopaste.store :as store]))
+            [pastebin.view :as view]
+            [pastebin.store :as store]))
 
 (defn handle-post
   "This handles creating a new paste, based on the POST data."
